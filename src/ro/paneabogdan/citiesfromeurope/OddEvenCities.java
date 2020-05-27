@@ -46,7 +46,7 @@ public class OddEvenCities {
     public void generateFile(String fileName, Object text) {
         PrintWriter writer = null;
         try {
-            writer = new PrintWriter(fileName + ".txt", "UTF-8");
+            writer = new PrintWriter(fileName, "UTF-8");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (UnsupportedEncodingException e) {
